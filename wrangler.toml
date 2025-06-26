@@ -2,9 +2,9 @@ name = "workers"
 main = "src/worker.ts"
 compatibility_date = "2024-05-29"
 compatibility_flags = ["nodejs_compat"]
+
 [observability.logs]
 enabled = true
-
 kv_namespaces = [
   { binding = "settings", id = "7a57d7bb1fa1432eb783d6ba147368ba" }
 ]
